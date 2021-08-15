@@ -592,7 +592,7 @@ Metric:
       if data.dtype == np.object:
     [{'class_ids': [4, 5, 3, 1, 2], 'scores': [0.81915, 0.14509, 0.02771, 0.00714, 0.00091], 'file_name': 'dataset/photography-1628649773318-753.jpg', 'label_names': ['ice', 'desert', 'river', 'church', 'lawn']}]
 
-
+## 4 效果展示
 运行完成，最后几行会得到结果如下形式：
 ```
 [{'class_ids': [4, 5, 3, 1, 2],
@@ -603,5 +603,10 @@ Metric:
 可以发现，预测结果不对，准确率很低，但整体的项目流程你已经掌握了！    
 训练轮数还有很大提升空间，自行变动参数直到预测正确为止~    
 
-<font size="3px" color="red">恭喜你学会了paddleclas图像分类！</font>
+## 5 总结与升华
 
+通过做图像分类这个项目，我大致了解了项目的整体流程，虽然在实现的过程中遇到了许多问题，比如：模型的选择，参数的优化等等。
+不过，最后也是完成了项目，达到了预期的效果。
+
+## 个人简介
+Ai Studio个人链接：我在AI Studio上获得青铜等级，点亮1个徽章，来互关呀~ https://aistudio.baidu.com/aistudio/personalcenter/thirdview/760853
